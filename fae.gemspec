@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'uglifier'
 
   # other dependencies
-  s.add_dependency 'devise', '>= 4.0.0'
+  s.add_dependency 'devise', '>= 4.3.0'
   s.add_dependency 'simple_form', '>= 3.1.0'
-  s.add_dependency 'jquery-ui-rails', '~> 4.2.1'
+  s.add_dependency 'jquery-ui-rails', '~> 5.0'
   s.add_dependency 'remotipart', '~> 1.3.1'
   s.add_dependency 'carrierwave', '~> 0.10.0'
   s.add_dependency 'rmagick', '~> 2.13.3'
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'acts_as_list', '~> 0.9.0'
   s.add_dependency 'browser', '~> 0.8.0'
   s.add_dependency 'slim'
-  s.add_dependency 'kaminari', '>= 1.0.0'
+  s.add_dependency 'kaminari', '~> 1.0.1'
 
   s.add_development_dependency 'thin'
   s.add_development_dependency 'better_errors'
